@@ -1,8 +1,13 @@
 aid: gourmey
 name: Gourmey
-description: 'Gourmey is a company surfaced as a portfolio company of partech, point-nine and added to
-  the API Evangelist network as a stub for enrichment. Sector: Food & Agritech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Gourmey is a Paris-based cultivated meat company producing sustainable,
+  cell-cultured meat delights — starting with cultivated foie gras — for an uncompromising
+  and conscious generation. Founded in France and backed by Partech and Point Nine,
+  Gourmey grows real meat directly from animal cells without raising or slaughtering
+  animals, aiming for a lower environmental footprint across the food and agritech
+  sectors. It was added to the API Evangelist network as a venture-portfolio company
+  profile; Gourmey operates a consumer and corporate website but does not publish a
+  public developer API, documentation, or SDK surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/gourmey/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,29 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://framerusercontent.com/assets/c36lBJ5tCgYZGRUIT4QnbSxTnQ.jpg
 tags:
 - Company
 - Food & Agritech
+- Cultivated Meat
+- Foodtech
+- Sustainability
+- Biotechnology
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.gourmey.com/
+- type: Blog
+  url: https://www.gourmey.com/news
+- type: Support
+  url: https://www.gourmey.com/contact
+- type: TermsOfService
+  url: https://www.gourmey.com/terms
+- type: PrivacyPolicy
+  url: https://www.gourmey.com/terms
+- type: DomainSecurity
+  url: security/gourmey-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
